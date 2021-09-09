@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,54 @@
     <link rel="stylesheet" href="style.css">
     <title>My Firs JScode</title>
 </head>
+
 <body>
     <header class="infopanel" id="infopanel">
 
     </header>
-    <hr>
     <main class="game-contianer" id="game-contianer">
         <div class="number-box">
             <number id="number1">0</number>
         </div>
-<hr>
+        <hr>
         <div class="number-box">
             <number id="number2">0</number>
         </div>
         <hr>
         <div class="answerbox">
             <div class="number-box">
-                    <input id="number-input">  
+                <!-- INPUT IS HERE -->
+                <input id="number-input">
             </div>
-            <button id="insert"> CLICK ME</button>
+            <!--INPUT'S BUTTON IS HERE -->
+            <button id="insert" class="button"> CLICK ME</button>
         </div>
         <hr>
-            <div class="flex-box">
-                <div>
-                    <h1>Score</h1>
-                    <div class="number-box">
-                        <number id="number3">0</number>
-                    </div>
+        <div class="flex-box">
+            <div>
+                <h1>Score</h1>
+                <div class="number-box">
+                    <number id="number3">0</number>
                 </div>
-                <div>
-                    <h1>H-Score</h1>
-                    <div class="number-box">
-                        <number id="number4">0</number>
-                    </div>
-                </div>
-                <a href="index.html" class="">RESET</a>
             </div>
-                <div class="corrections">
-                    <p class="correction" id="answer-correct">✔</p>
-                    <p class="correction" id="answer-false">❌</p>
+            <div>
+                <h1>H-Score</h1>
+                <div class="number-box">
+                    <number id="number4">0</number>
                 </div>
+            </div>
+            <div>
+                <!-- RESET BUTTON IS HERE -->
+                <h1>Reset Score</h1>
+                <a href="index.html"><button class="button" id="reset-btn">RESET</button></a>
+            </div>
+        </div>
+        <div class="corrections">
+            <p class="correction" id="answer-correct">✔</p>
+            <p class="correction" id="answer-false">❌</p>
+        </div>
     </main>
     <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>

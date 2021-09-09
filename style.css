@@ -20,7 +20,22 @@ body{
 .answerbox{
     display: flex;
 }
+.button{  
+    font-family: monospace;
+    font-size: 18px;
+    color: rgba(126, 36, 1, 0.6);
+    height: 106px;
+    width: 106px;
+    margin: 15px;
+    border: 2px solid #fa9d00;
+    border-radius: 5px;
+    background-color: #ffd08d;
+
+}
 #insert{
+    font-family: monospace;
+    font-size: 18px;
+    color: rgba(126, 36, 1, 0.6);
     height: 106px;
     width: 106px;
     margin: 15px;
@@ -58,4 +73,7 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+#reset-btn{
+    margin-top: 0;
 }
